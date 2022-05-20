@@ -7,6 +7,10 @@ main{
     background-color: rgb(232, 232, 232);
 }
 
+.save {
+    border-radius: 5rem;
+}
+
 .pie-foto{
     display: flex;
     justify-content: flex-start;
