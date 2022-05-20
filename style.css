@@ -7,10 +7,6 @@ main{
     background-color: rgb(232, 232, 232);
 }
 
-.save {
-    border-radius: 5rem;
-}
-
 .pie-foto{
     display: flex;
     justify-content: flex-start;
@@ -53,8 +49,19 @@ main{
     align-items: center;
 }
 .footer{
-    height: 20px;
+    height: 50px;
     background-color: rgb(246, 246, 246);
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    border-radius: 2rem;
+    border: none;
+}
+
+
+.save {
+    border-radius: 5rem;
 }
