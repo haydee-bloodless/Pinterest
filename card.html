@@ -12,43 +12,49 @@
 
 <body>
   <!---------------------- MENU NAVEGACION ------------------------>
-  <nav class="navbar fixed-top navbar-expand-sm bg-light ">
+  <nav class="navbar navbar-expand-lg fixed-top bg-light">
     <div class="container-fluid">
-      <!-- ICONO PINTEREST -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <a class="navbar-brand" href="index.html">
-          <img src="./img/icono.png" alt="" width="40" height="35">
+            <img src="./img/icono.png" alt="" width="40" height="35">
         </a>
+        <a class="navbar-brand nombre-pinterest" href="index.html">FakePinterest</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hoy</a>
+                </li>
+            </ul>
+            <form class="container-fluid">
+                <div class="input-group">
+                    <input type="text" class="form-control barra-busqueda-inicio" placeholder="Buscar"
+                        aria-label="Buscar" aria-describedby="basic-addon1">
+                </div>
+            </form>
 
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <!-- BOTON INICIO Y HOY -->
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Hoy</a>
-          </li>
-          <!-- BARRA BUSQUEDA -->
-        </ul>
-        <form class="container-fluid">
-          <div class="input-group">
-            <input type="text" class="form-control barra-busqueda-inicio" placeholder="Buscar" aria-label="Buscar"
-              aria-describedby="basic-addon1">
-          </div>
-        </form>
-        <!-- ICONOS FINAL BARRA NAVEGACIÓN-->
-        <a class="navbar-brand" href="#">
-          <img src="./img/icono-campana.png" alt="" width="40" height="40">
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="./img/icono-bandeja.png" alt="" width="40" height="40">
-        </a>
-        <a class="navbar-brand" href="#">
-          <img src="./img/icono-perfil.png" alt="" width="40" height="40">
-        </a>
-      </div>
+            <a class="navbar-brand icon-nav" href="#">
+                <img src="./img/icono-campana.png" alt="" width="40" height="40">
+            </a>
+
+
+            <a class="navbar-brand icon-nav" href="#">
+                <img src="./img/icono-bandeja.png" alt="" width="40" height="40">
+            </a>
+
+
+            <a class="navbar-brand icon-nav" href="#">
+                <img src="./img/icono-perfil.png" alt="" width="40" height="40">
+            </a>
+
+        </div>
     </div>
-  </nav>
+</nav>
   <!-- TARJETA SELECCIONADA -->
   <main>
     <!----------------TARJETA IMAGEN LADO IZQUIERDO -->
@@ -107,7 +113,7 @@
     <!-- TIRA DE IMAGENES RELACIONADAS CON SELECCIÓN -->
     <div class="container">
       <div>
-        <h5>Más como esto...</h5>
+        <h6>Más como esto...</h6>
       </div>
       <div class="row m-5">
         <!-- COLUMNA 1 DE IMAGENES -->

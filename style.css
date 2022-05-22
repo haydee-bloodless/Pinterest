@@ -1,12 +1,13 @@
 main{
     margin-top: 80px;
 }
+/* MENU NAVEGACION */
 .barra-busqueda-inicio{
     padding-left: 40px;
     border-radius: 30px;
     background-color: rgb(232, 232, 232);
 }
-
+/* IMAGENES */
 .pie-foto{
     display: flex;
     justify-content: flex-start;
@@ -22,6 +23,24 @@ main{
     text-decoration: none;
 
 }
+/* TARJETA E INTERIOR */
+.tarjeta {
+    border-radius: 2rem;
+    border: none;
+}
+
+
+.save {
+    border-radius: 5rem;
+}
+
+h6{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+/* SIMBOLOS DE + E ? FLOTADOS */
 .simbolos{
     
     display: flex;
@@ -48,6 +67,7 @@ main{
     justify-self: flex-start;
     align-items: center;
 }
+/* FOOTER */
 .footer{
     height: 50px;
     background-color: rgb(246, 246, 246);
@@ -56,19 +76,17 @@ main{
     align-items: center;
 }
 
-.tarjeta {
-    border-radius: 2rem;
-    border: none;
-}
+/* MEDIA QUERY */
+/* EN ESTE MEDIA QUERY SE DESAPARECEN LOS ÍCONOS DE BANDEJA, NOTIFICACIÓN Y PERFIL AL MOMENTO DE CONTRAERSE */
+@media only screen and (max-width:994px){
+    .icon-nav{
+        display: none;
+    }
+   }
 
-
-.save {
-    border-radius: 5rem;
-}
-
-h5{
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-
-}
+/* EN ESTE MEDIA QUERY SE APARECE LA PALABRA "FAKEPINTEREST" AL MOMENTO DE CONTRAERSE*/
+@media only screen and (min-width:994px){
+    .nombre-pinterest{
+        display: none;
+    }
+   }
