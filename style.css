@@ -40,6 +40,46 @@ h6{
     margin-top: 10px;
 
 }
+.upl-perfil{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.perf{
+    
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.icono-perfil{
+    display: flex;
+    justify-items: center;
+    align-self: center;
+
+}
+.datos-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+.contenedor-seguir{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+.seguir{
+    background-color: rgb(217, 217, 217);
+    color: #000000;
+    border-radius: 5rem;
+    border:none;
+    font-weight: 500;
+}
+.datos p{
+    font-size: small;
+}
 /* SIMBOLOS DE + E ? FLOTADOS */
 .simbolos{
     
