@@ -14,118 +14,120 @@
   <!---------------------- MENU NAVEGACION ------------------------>
   <nav class="navbar navbar-expand-lg fixed-top bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-            <img src="./img/icono.png" alt="" width="40" height="35">
+      <a class="navbar-brand" href="index.html">
+        <img src="./img/pinterest-icono.svg" alt="" width="auto" height="30">
+      </a>
+      <a class="navbar-brand nombre-pinterest" href="index.html">FakePinterest</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hoy</a>
+          </li>
+        </ul>
+        <form class="container-fluid">
+          <div class="input-group">
+            <input type="text" class="form-control barra-busqueda-inicio" placeholder="Buscar" aria-label="Buscar"
+              aria-describedby="basic-addon1">
+          </div>
+        </form>
+
+        <a class="navbar-brand icon-nav" href="#">
+          <img src="./img/icono-campana.svg" alt="" width="auto" height="30">
         </a>
-        <a class="navbar-brand nombre-pinterest" href="index.html">FakePinterest</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Hoy</a>
-                </li>
-            </ul>
-            <form class="container-fluid">
-                <div class="input-group">
-                    <input type="text" class="form-control barra-busqueda-inicio" placeholder="Buscar"
-                        aria-label="Buscar" aria-describedby="basic-addon1">
-                </div>
-            </form>
-
-            <a class="navbar-brand icon-nav" href="#">
-                <img src="./img/icono-campana.png" alt="" width="40" height="40">
-            </a>
 
 
-            <a class="navbar-brand icon-nav" href="#">
-                <img src="./img/icono-bandeja.png" alt="" width="40" height="40">
-            </a>
+        <a class="navbar-brand icon-nav" href="#">
+          <img src="./img/icono-bandeja.svg" alt="" width="auto" height="25">
+        </a>
 
 
-            <a class="navbar-brand icon-nav" href="#">
-                <img src="./img/icono-perfil.png" alt="" width="40" height="40">
-            </a>
+        <a class="navbar-brand icon-nav" href="#">
+          <img src="./img/icono-perfil.svg" alt="" width="auto" height="30">
+        </a>
 
-        </div>
+      </div>
     </div>
-</nav>
+  </nav>
   <!-- TARJETA SELECCIONADA -->
   <main>
     <!----------------TARJETA IMAGEN LADO IZQUIERDO -->
     <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="card mb-3 shadow tarjeta" style="max-width: 800px;">
-                <div class="row g-0">
-                <div class="col-md-6">
-                    <img src="https://www.revistaconstruye.com.mx/images/cara.jpg" class="img-fluid rounded-start" alt="...">
+      <div class="row justify-content-md-center">
+        <div class="card mb-3 shadow tarjeta" style="max-width: 800px;">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="https://www.revistaconstruye.com.mx/images/cara.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <!-- ------------------- TARJETA LADO DERECHO -->
+                <div class="container">
+                  <div class="row row-cols-1">
+                    <ul class="nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <img src="./img/icono-3puntos.svg" alt="tres puntos" width="20" height="20">
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <img src="./img/icono-upload.svg" alt="icono subir" width="20" height="20">
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">
+                          <img src="./img/icono-chain.svg" alt="icono subir" width="20" height="20">
+                        </a>
+                      </li>
+                      <li class="">
+                        <button type="button" class="btn btn-danger save">Guardar</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <br>
+                  <!---------------DESCRIPCIÓN TARJETA ---------------->
                 </div>
-                <div class="col-md-6">        
-                    <div class="card-body">
-                      <!-- ------------------- TARJETA LADO DERECHO -->
-                      <div class="container">
-                        <div class="row row-cols-1">
-                            <ul class="nav">
-                                 <li class="nav-item">
-                                  <a class="nav-link" href="#">
-                                    <img src="./img/3puntos.png" alt="tres puntos" width="20" height="20">
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">
-                                    <img src="./img/upload.svg" alt="icono subir" width="20" height="20">
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="#">
-                                    <img src="./img/chain.svg" alt="icono subir" width="20" height="20">
-                                  </a>                                
-                                </li>
-                                <li class="">
-                                    <button type="button" class="btn btn-danger save">Guardar</button>
-                                  </li>
-                              </ul>
-                        </div>
-                        <!---------------DESCRIPCIÓN TARJETA ---------------->
-                    </div>  
-                      <h5 class="card-title">Escaleras</h5>
-                      <p class="card-text"><small class="text-muted">Autor</small></p>                    
+                <h3 class="card-title">Escaleras</h3>
+                <p class="card-text"><small class="text-muted">Autor</small></p>
+              </div>
+              <!-- <div class="container">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div> -->
+              <div class="upl-perfil">
+                <div class="perf">
+                  <div class="icono-perfil">
+                    <img src="./img/icono-perfil.png" alt="Icono perfil">
+                  </div>
+                  <div class="datos-perfil">
+                    <div class="datos">
+                      <a class="link-pie-foto" href="#"> umbral_arq</a>
                     </div>
-                    <div class="container">
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="datos">
+                      <p> 980,000 seguidores</p>
                     </div>
-                    <div class="upl-perfil">
-                      <div class="perf">
-                          <div class="icono-perfil">
-                              <img src="./img/icono-perfil.png" alt="Icono perfil">
-                          </div>
-                          <div class="datos-perfil">
-                              <div class="datos">
-                                  <a class="link-pie-foto" href="#"> umbral_arq</a>
-                              </div>
-                              <div class="datos">
-                                  <p> 980,000 seguidores</p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="contenedor-seguir">
-                          <div class="btn-seguir">
-                              <button type="button" class="btn btn-danger seguir">Seguir</button>
-                          </div>
-                      </div>
                   </div>
                 </div>
+                <div class="contenedor-seguir">
+                  <div class="btn-seguir">
+                    <button type="button" class="btn btn-danger seguir">Seguir</button>
+                  </div>
                 </div>
+              </div>
             </div>
           </div>
         </div>
-
       </div>
+    </div>
+
+    </div>
     </div>
     </div>
     </div>
@@ -165,7 +167,8 @@
               src="https://1.bp.blogspot.com/-1KqZOXmu-S4/YRa9OCcdAsI/AAAAAAAAEaI/oEqyppSV7sM-t8DVE45Or9UgZJjHdYZ1gCLcBGAsYHQ/s697/IMG_20210814_013146.jpg"
               alt="Casa texturas frías.">
           </a>
-          <a href="#"><img class="w-100 rounded" src="https://i.ytimg.com/vi/GI71fXmRrLM/maxresdefault.jpg" alt="Sala blanca.">
+          <a href="#"><img class="w-100 rounded" src="https://i.ytimg.com/vi/GI71fXmRrLM/maxresdefault.jpg"
+              alt="Sala blanca.">
           </a>
         </div>
         <!-- COLUMNA 3 DE IMAGENES -->
@@ -173,7 +176,8 @@
           <div>
             <a href="#">
               <img class="w-100 mb-4 rounded"
-                src="https://images.adsttc.com/media/images/58ec/b867/e58e/ce8f/0300/0175/slideshow/21_Vertical_House.jpg?1491908703" alt="Render Casa iluminada.">
+                src="https://images.adsttc.com/media/images/58ec/b867/e58e/ce8f/0300/0175/slideshow/21_Vertical_House.jpg?1491908703"
+                alt="Render Casa iluminada.">
             </a>
           </div>
           <div>
@@ -185,7 +189,8 @@
           </div>
           <div>
             <a href="#">
-              <img class="w-100 mb-4 rounded" src="https://cdn.openpr.com/U/a/Ua01398613_g.jpg" alt="Sala interior calida.">
+              <img class="w-100 mb-4 rounded" src="https://cdn.openpr.com/U/a/Ua01398613_g.jpg"
+                alt="Sala interior calida.">
             </a>
           </div>
         </div>
@@ -201,7 +206,8 @@
           <div>
             <a href="#">
               <img class="w-100 rounded"
-                src="https://i.pinimg.com/originals/ee/a4/6f/eea46f4ede1fa4331032b928c46212d9.jpg" alt="Silla interior.">
+                src="https://i.pinimg.com/originals/ee/a4/6f/eea46f4ede1fa4331032b928c46212d9.jpg"
+                alt="Silla interior.">
             </a>
 
 
@@ -254,8 +260,7 @@
           </div>
           <div>
             <a href="#">
-              <img class="w-100 mb-4 rounded"
-                src="https://i.blogs.es/20ba28/casa-verti-1/1366_2000.jpg"
+              <img class="w-100 mb-4 rounded" src="https://i.blogs.es/20ba28/casa-verti-1/1366_2000.jpg"
                 alt="Casa vertical.">
             </a>
           </div>
