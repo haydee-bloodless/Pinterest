@@ -40,6 +40,40 @@ h6{
     margin-top: 10px;
 
 }
+/* BOTONES INICIALES TARJETA */
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.contenedor-accion{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.btn-accion{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.icono_tarjeta{
+   margin: 5px;
+   padding: 5px;
+}
+.btn-guardar{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/* DESCRIPCION TARJETA */
+.descripcion-tarjeta{
+    margin: 10px;
+    padding: 10px; 
+}
+.descripcion-tarjeta p{
+    text-align: justify;
+}
+/* DATOS PERFIL */
 .upl-perfil{
     margin-top: 40px;
     display: flex;
